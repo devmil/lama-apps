@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en" data-assets="assets/637ff2e9ffa9/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Lama apps · by Devmil Solutions</title>
+  <meta name="description" content="ProcessLama, MailLama, GitLama, ShotLama and NoteLama: Five focused apps by Devmil Solutions, one sunglasses-wearing Lama and the Meridian design system they share.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#17171E">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Lama apps · by Devmil Solutions">
+  <meta property="og:description" content="Five apps. One herd. Excellent shades.">
+  <meta property="og:url" content="https://devmil.de/lama-apps/">
+  <link rel="canonical" href="https://devmil.de/lama-apps/">
+  <link rel="icon" type="image/svg+xml" href="favicon.9982ad21af0a.svg">
+  <link rel="stylesheet" href="assets/637ff2e9ffa9/web/lama-antics.css">
+  <link rel="stylesheet" href="style.bad8274823ab.css">
+  <script>document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="The Lama apps, top of page">
+      <img src="favicon.9982ad21af0a.svg" width="32" height="32" alt="">
+      <span><b>Lama apps</b><small>by Devmil Solutions</small></span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#apps">The herd</a>
+      <a href="#build">Anatomy</a>
+      <a href="#meridian">Meridian</a>
+    </nav>
+    <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Dark appearance">
+      <span class="tt-track" aria-hidden="true"><span class="tt-thumb"></span></span>
+      <span class="tt-label" aria-hidden="true">Shades</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- The pasture -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="sky" aria-hidden="true">
+        <div class="stars"></div>
+        <div class="shooting-star"></div>
+        <div class="cloud c1"></div><div class="cloud c2"></div><div class="cloud c3"></div>
+        <svg class="mountains" viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice">
+          <path class="m-far" d="M0 360V250Q120 150 220 210T420 170Q520 90 640 180T860 150Q960 60 1080 170T1300 140Q1380 110 1440 160V360Z"/>
+          <path class="m-near" d="M0 360V300Q160 210 300 270T560 240Q700 170 820 250T1080 230Q1240 180 1440 260V360Z"/>
+        </svg>
+      </div>
+      <button type="button" class="sky-body" data-theme-toggle aria-label="Lower the sun">
+        <svg class="sun" viewBox="-60 -60 120 120" aria-hidden="true">
+          <g class="rays"><path d="M0-56v14M0 42v14M-56 0h14M42 0h14M-40-40l10 10M30 30l10 10M-40 40l10-10M30-30l10-10"/></g>
+          <circle r="34"/>
+          <g class="sun-shades"><path d="M-27-8h22l-2.6 9q-.8 5-5.4 5h-6q-4.6 0-5.4-5ZM5-8h22l-2.6 9q-.8 5-5.4 5h-6q-4.6 0-5.4-5Z"/><rect x="-29" y="-10" width="58" height="4" rx="1.5"/></g>
+          <path class="sun-smile" d="M-12 16q12 9 24 0"/>
+        </svg>
+        <svg class="moon" viewBox="-60 -60 120 120" aria-hidden="true">
+          <mask id="moon-cut"><rect x="-60" y="-60" width="120" height="120" fill="#fff"/><circle cx="18" cy="-14" r="30" fill="#000"/></mask>
+          <circle r="34" mask="url(#moon-cut)"/>
+        </svg>
+      </button>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Devmil Solutions presents</p>
+          <h1 id="hero-title">Five apps. One herd. <em>Excellent shades.</em></h1>
+          <p class="lead">Apps for processes, mail, Git, screenshots and handwritten notes. Each does one job well. They share a sunglasses-wearing Lama and one design system, Meridian.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#apps">Meet the herd <span aria-hidden="true">↓</span></a>
+            <a class="button ghost" href="#meridian">The design system</a>
+          </div>
+          <p class="hero-hint"><span aria-hidden="true">☞</span> The big one likes taps. Lots of taps.</p>
+        </div>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="hill-mound"></div>
+          <div id="hero-lama" class="hero-lama">
+            <img class="pose proud" src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="320" height="320" alt="" draggable="false">
+            <img class="pose hello" src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="320" height="320" alt="" draggable="false">
+          </div>
+        </div>
+      </div>
+
+      <div class="meadow">
+        <svg class="hills" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+          <path class="h-back" d="M0 200V70Q240 10 520 60T1000 40Q1240 20 1440 70V200Z"/>
+          <path class="h-front" d="M0 200V120Q300 70 640 110T1440 100V200Z"/>
+        </svg>
+        <nav class="herd" aria-label="The herd: jump to an app">
+          <a class="herd-lama" href="#processlama" style="--ground:#00402C;--accent:#0E7C59;--accent-dark:#24C27D;--prop:#FFF8EB;--i:0" data-herd="mimameidr"><span class="herd-body"><img class="herd-proud" src="assets/637ff2e9ffa9/lama/herd-mimameidr.svg" width="120" height="120" alt="" draggable="false"><img class="herd-hello" src="assets/637ff2e9ffa9/lama/herd-mimameidr-hello.svg" width="120" height="120" alt="" draggable="false"></span><span class="herd-name">ProcessLama</span></a>
+<a class="herd-lama" href="#maillama" style="--ground:#6D4AFF;--accent:#6D4AFF;--accent-dark:#9B83FF;--prop:#FFF8EB;--i:1" data-herd="crossproton"><span class="herd-body"><img class="herd-proud" src="assets/637ff2e9ffa9/lama/herd-crossproton.svg" width="120" height="120" alt="" draggable="false"><img class="herd-hello" src="assets/637ff2e9ffa9/lama/herd-crossproton-hello.svg" width="120" height="120" alt="" draggable="false"></span><span class="herd-name">MailLama</span></a>
+<a class="herd-lama" href="#gitlama" style="--ground:#14242B;--accent:#056CB3;--accent-dark:#5BB1FE;--prop:#FFF8EB;--i:2" data-herd="northspline"><span class="herd-body"><img class="herd-proud" src="assets/637ff2e9ffa9/lama/herd-northspline.svg" width="120" height="120" alt="" draggable="false"><img class="herd-hello" src="assets/637ff2e9ffa9/lama/herd-northspline-hello.svg" width="120" height="120" alt="" draggable="false"></span><span class="herd-name">GitLama</span></a>
+<a class="herd-lama" href="#shotlama" style="--ground:#4D253F;--accent:#B8338F;--accent-dark:#E977BB;--prop:#FFF8EB;--i:3" data-herd="shotlama"><span class="herd-body"><img class="herd-proud" src="assets/637ff2e9ffa9/lama/herd-shotlama.svg" width="120" height="120" alt="" draggable="false"><img class="herd-hello" src="assets/637ff2e9ffa9/lama/herd-shotlama-hello.svg" width="120" height="120" alt="" draggable="false"></span><span class="herd-name">ShotLama</span></a>
+<a class="herd-lama" href="#notelama" style="--ground:#18304F;--accent:#0B6477;--accent-dark:#5CC0CF;--prop:#CFEFF3;--i:4" data-herd="nibluma"><span class="herd-body"><img class="herd-proud" src="assets/637ff2e9ffa9/lama/herd-nibluma.svg" width="120" height="120" alt="" draggable="false"><img class="herd-hello" src="assets/637ff2e9ffa9/lama/herd-nibluma-hello.svg" width="120" height="120" alt="" draggable="false"></span><span class="herd-name">NoteLama</span></a>
+        </nav>
+      </div>
+    </section>
+
+    <div class="parade" aria-hidden="true">
+      <div class="parade-track"><div class="parade-run"><span class="parade-item" style="--ground:#00402C;--accent:#0E7C59;--accent-dark:#24C27D;--prop:#FFF8EB;--i:0"><img src="assets/637ff2e9ffa9/lama/herd-mimameidr.svg" width="120" height="120" alt=""><b>ProcessLama</b></span><span class="parade-item" style="--ground:#6D4AFF;--accent:#6D4AFF;--accent-dark:#9B83FF;--prop:#FFF8EB;--i:1"><img src="assets/637ff2e9ffa9/lama/herd-crossproton.svg" width="120" height="120" alt=""><b>MailLama</b></span><span class="parade-item" style="--ground:#14242B;--accent:#056CB3;--accent-dark:#5BB1FE;--prop:#FFF8EB;--i:2"><img src="assets/637ff2e9ffa9/lama/herd-northspline.svg" width="120" height="120" alt=""><b>GitLama</b></span><span class="parade-item" style="--ground:#4D253F;--accent:#B8338F;--accent-dark:#E977BB;--prop:#FFF8EB;--i:3"><img src="assets/637ff2e9ffa9/lama/herd-shotlama.svg" width="120" height="120" alt=""><b>ShotLama</b></span><span class="parade-item" style="--ground:#18304F;--accent:#0B6477;--accent-dark:#5CC0CF;--prop:#CFEFF3;--i:4"><img src="assets/637ff2e9ffa9/lama/herd-nibluma.svg" width="120" height="120" alt=""><b>NoteLama</b></span></div><div class="parade-run"><span class="parade-item" style="--ground:#00402C;--accent:#0E7C59;--accent-dark:#24C27D;--prop:#FFF8EB;--i:0"><img src="assets/637ff2e9ffa9/lama/herd-mimameidr.svg" width="120" height="120" alt=""><b>ProcessLama</b></span><span class="parade-item" style="--ground:#6D4AFF;--accent:#6D4AFF;--accent-dark:#9B83FF;--prop:#FFF8EB;--i:1"><img src="assets/637ff2e9ffa9/lama/herd-crossproton.svg" width="120" height="120" alt=""><b>MailLama</b></span><span class="parade-item" style="--ground:#14242B;--accent:#056CB3;--accent-dark:#5BB1FE;--prop:#FFF8EB;--i:2"><img src="assets/637ff2e9ffa9/lama/herd-northspline.svg" width="120" height="120" alt=""><b>GitLama</b></span><span class="parade-item" style="--ground:#4D253F;--accent:#B8338F;--accent-dark:#E977BB;--prop:#FFF8EB;--i:3"><img src="assets/637ff2e9ffa9/lama/herd-shotlama.svg" width="120" height="120" alt=""><b>ShotLama</b></span><span class="parade-item" style="--ground:#18304F;--accent:#0B6477;--accent-dark:#5CC0CF;--prop:#CFEFF3;--i:4"><img src="assets/637ff2e9ffa9/lama/herd-nibluma.svg" width="120" height="120" alt=""><b>NoteLama</b></span></div></div>
+    </div>
+
+    <!-- The apps -->
+    <section class="apps section" id="apps" aria-labelledby="apps-title">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 · The herd</p>
+        <h2 id="apps-title">Meet the herd.</h2>
+        <p>Every app has its own job, its own colour and its own scene. The Lama is always the same one; only the shades change colour. Each scene below is a small toy built for this page. Tap the Lamas, they don’t mind.</p>
+      </div>
+      
+    <article class="app" id="processlama" style="--ground:#00402C;--accent:#0E7C59;--accent-dark:#24C27D;--prop:#FFF8EB" data-app="mimameidr">
+      <figure class="app-figure reveal">
+        <div class="stage scene-mimameidr" data-scene="mimameidr" role="img" aria-label="A Lama hops over the beats of a pulse line while a small process list ticks.">
+          
+        <div class="pl-monitor"><span class="pl-live"><i></i>Live</span><ol class="pl-top"></ol></div>
+        <div class="pl-line"></div>
+        <div class="pl-beats"></div>
+          <div class="scene-lama"><img class="pose proud" src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="240" height="240" alt="" draggable="false"><img class="pose hello" src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="240" height="240" alt="" draggable="false"></div>
+        </div>
+        <figcaption><span class="caption-text">It stands on a live pulse line and jumps every beat. Mostly.</span></figcaption>
+      </figure>
+      <div class="app-copy reveal">
+        <header class="app-head">
+          <img class="app-tile" src="assets/637ff2e9ffa9/lama/tile-mimameidr.svg" width="72" height="72" alt="">
+          <div><p class="app-job">Process explorer</p><h3>ProcessLama</h3></div>
+          <span class="status is-beta">Beta</span>
+        </header>
+        <p class="app-tagline">See what your machine is up to.</p>
+        <p class="app-summary">ProcessLama lists the processes on your computer as a tree and shows CPU, memory, network and storage use for each one. Rows keep their place while the values update.</p>
+        <ul class="app-features"><li>A process tree you can lock while the numbers keep refreshing</li><li>Metrics and history per process and per subtree</li><li>An inspector for files, sockets, threads and security details</li></ul>
+        <ul class="app-platforms" aria-label="Platforms"><li>macOS</li><li>Linux</li><li>Windows</li></ul>
+        <a class="button app-link" href="https://devmil.de/processlama/">Visit ProcessLama<span aria-hidden="true"> ↗</span></a>
+      </div>
+    </article>
+
+    <article class="app is-flipped" id="maillama" style="--ground:#6D4AFF;--accent:#6D4AFF;--accent-dark:#9B83FF;--prop:#FFF8EB" data-app="crossproton">
+      <figure class="app-figure reveal">
+        <div class="stage scene-crossproton" data-scene="crossproton" role="img" aria-label="Letters fly into an envelope beside a Lama, which butts the tracking letters away.">
+          
+        <div class="ml-count"><span>Inbox <b class="ml-inbox">0</b></span><span>Trackers kept out <b class="ml-blocked">0</b></span></div>
+        <svg class="ml-envelope" viewBox="0 0 100 70" aria-hidden="true"><path class="ml-back" d="M6 22h88v42a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4Z"/><path class="ml-flap" d="M6 22 50 2l44 20"/><path class="ml-front" d="M6 30l44 22 44-22v34a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4Z"/></svg>
+        <div class="ml-letters"></div>
+          <div class="scene-lama"><img class="pose proud" src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="240" height="240" alt="" draggable="false"><img class="pose hello" src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="240" height="240" alt="" draggable="false"></div>
+        </div>
+        <figcaption><span class="caption-text">Letters go into the envelope. Trackers get headbutted back out.</span></figcaption>
+      </figure>
+      <div class="app-copy reveal">
+        <header class="app-head">
+          <img class="app-tile" src="assets/637ff2e9ffa9/lama/tile-crossproton.svg" width="72" height="72" alt="">
+          <div><p class="app-job">Desktop client for Proton Mail</p><h3>MailLama</h3></div>
+          <span class="status is-beta">Preview</span>
+        </header>
+        <p class="app-tagline">Your private mail, at home on the desktop.</p>
+        <p class="app-summary">MailLama brings your Proton Mail account into a calm desktop window. Proton’s own Rust SDK signs you in, encrypts and syncs. MailLama is independent and not affiliated with Proton AG.</p>
+        <ul class="app-features"><li>Conversations, nested folders and coloured labels</li><li>Remote images blocked and trackers removed by default</li><li>Drafts that save as you write, and sending scheduled for Monday</li></ul>
+        <ul class="app-platforms" aria-label="Platforms"><li>macOS</li><li>Linux</li></ul>
+        <a class="button app-link" href="https://devmil.de/maillama/">Visit MailLama<span aria-hidden="true"> ↗</span></a>
+      </div>
+    </article>
+
+    <article class="app" id="gitlama" style="--ground:#14242B;--accent:#056CB3;--accent-dark:#5BB1FE;--prop:#FFF8EB" data-app="northspline">
+      <figure class="app-figure reveal">
+        <div class="stage scene-northspline" data-scene="northspline" role="img" aria-label="Commits slide along a branch line under a Lama, which jumps over each one.">
+          
+        <div class="gl-log"><span class="gl-head">HEAD → main</span><span class="gl-msg"><code class="gl-sha">0000000</code> <span class="gl-text">Initial commit</span></span></div>
+        <div class="gl-trunk"></div><div class="gl-branch"></div>
+        <div class="gl-commits"></div>
+          <div class="scene-lama"><img class="pose proud" src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="240" height="240" alt="" draggable="false"><img class="pose hello" src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="240" height="240" alt="" draggable="false"></div>
+        </div>
+        <figcaption><span class="caption-text">Commits run along the trunk. It clears every one, and flips for a merge.</span></figcaption>
+      </figure>
+      <div class="app-copy reveal">
+        <header class="app-head">
+          <img class="app-tile" src="assets/637ff2e9ffa9/lama/tile-northspline.svg" width="72" height="72" alt="">
+          <div><p class="app-job">Git client</p><h3>GitLama</h3></div>
+          <span class="status is-beta">Beta</span>
+        </header>
+        <p class="app-tagline">Your repository, in view.</p>
+        <p class="app-summary">GitLama is a desktop Git client. It keeps the history graph, your changes and the selected diff in one window. Free software under GPL-3.0-or-later, built with Flutter and Rust.</p>
+        <ul class="app-features"><li>Stage files, hunks or single lines</li><li>Interactive rebase with a preview before it runs</li><li>Per-repository undo and named snapshots</li></ul>
+        <ul class="app-platforms" aria-label="Platforms"><li>macOS</li><li>Linux</li><li>Windows</li></ul>
+        <a class="button app-link" href="https://devmil.de/gitlama/">Visit GitLama<span aria-hidden="true"> ↗</span></a>
+      </div>
+    </article>
+
+    <article class="app is-flipped" id="shotlama" style="--ground:#4D253F;--accent:#B8338F;--accent-dark:#E977BB;--prop:#FFF8EB" data-app="shotlama">
+      <figure class="app-figure reveal">
+        <div class="stage scene-shotlama" data-scene="shotlama" role="img" aria-label="A Lama in crop corners jumps for the shutter; each capture lands in a small card.">
+          
+        <svg class="sl-corners" viewBox="0 0 100 100" aria-hidden="true"><path d="M4 24V12a8 8 0 0 1 8-8h12"/><path d="M76 4h12a8 8 0 0 1 8 8v12"/><path d="M4 76v12a8 8 0 0 0 8 8h12"/><path d="M76 96h12a8 8 0 0 0 8-8V76"/></svg>
+        <div class="sl-dim"></div><div class="sl-flash"></div>
+        <div class="sl-cards"></div>
+          <div class="scene-lama"><img class="pose proud" src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="240" height="240" alt="" draggable="false"><img class="pose hello" src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="240" height="240" alt="" draggable="false"></div>
+        </div>
+        <figcaption><span class="caption-text">Press the shutter. It always strikes a pose for the camera.</span><button type="button" class="scene-action" data-action="shotlama"><span class="shutter" aria-hidden="true"></span>Take a capture</button></figcaption>
+      </figure>
+      <div class="app-copy reveal">
+        <header class="app-head">
+          <img class="app-tile" src="assets/637ff2e9ffa9/lama/tile-shotlama.svg" width="72" height="72" alt="">
+          <div><p class="app-job">Screenshot and screen recording studio</p><h3>ShotLama</h3></div>
+          <span class="status is-dev">In development</span>
+        </header>
+        <p class="app-tagline">Capture a moment. Make your point.</p>
+        <p class="app-summary">ShotLama is a screenshot and screen recording studio. Capture an area, a window or a display, then copy, save, pin or annotate it from a small card in the corner.</p>
+        <ul class="app-features"><li>A frozen screen, a loupe and exact sizes while you select</li><li>Quick Access cards you can copy, drag, pin or swipe away</li><li>Arrows, counters, highlights and backgrounds that explain the capture</li></ul>
+        <ul class="app-platforms" aria-label="Platforms"><li>macOS first</li><li>Windows</li><li>Linux</li></ul>
+        <a class="button app-link" href="https://devmil.de/shotlama/">Visit ShotLama<span aria-hidden="true"> ↗</span></a>
+      </div>
+    </article>
+
+    <article class="app" id="notelama" style="--ground:#18304F;--accent:#0B6477;--accent-dark:#5CC0CF;--prop:#CFEFF3" data-app="nibluma">
+      <figure class="app-figure reveal">
+        <div class="stage scene-nibluma" data-scene="nibluma" role="img" aria-label="A Lama on an open notebook watches handwriting appear and hops as the page turns.">
+          
+        <svg class="nl-book" viewBox="0 0 400 300" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+          <path class="nl-cover" d="M14 214q93-14 186-6 93-8 186 6v70q-93-12-186-4-93-8-186 4Z"/>
+          <path class="nl-page nl-left" d="M26 206q87-16 174-6v80q-87-10-174 4Z"/>
+          <path class="nl-page nl-right" d="M200 200q87-10 174 6v78q-87-14-174-4Z"/>
+          <g class="nl-rules"></g><g class="nl-ink"></g>
+          <path class="nl-page nl-turn" d="M200 200q87-10 174 6v78q-87-14-174-4Z"/>
+          <g class="nl-pen"><rect x="-3" y="-34" width="6" height="30" rx="3"/><path d="M-3 -6 0 2 3 -6Z"/></g>
+        </svg>
+          <div class="scene-lama"><img class="pose proud" src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="240" height="240" alt="" draggable="false"><img class="pose hello" src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="240" height="240" alt="" draggable="false"></div>
+        </div>
+        <figcaption><span class="caption-text">It watches the pen. When the spread is full, it hops over the page.</span></figcaption>
+      </figure>
+      <div class="app-copy reveal">
+        <header class="app-head">
+          <img class="app-tile" src="assets/637ff2e9ffa9/lama/tile-nibluma.svg" width="72" height="72" alt="">
+          <div><p class="app-job">Handwritten notebooks</p><h3>NoteLama</h3></div>
+          <span class="status is-dev">In development</span>
+        </header>
+        <p class="app-tagline">Your notebooks. Your storage.</p>
+        <p class="app-summary">NoteLama is a notebook for handwritten ideas and the paper you want to keep. Write with a pen on a tablet, read and edit on your phone. Everything works offline, without an account.</p>
+        <ul class="app-features"><li>A steady pen, a pressure pen, a pencil and a highlighter</li><li>Ruled, squared, dotted or Cornell paper, per page</li><li>PDF export and an editable backup of every book</li></ul>
+        <ul class="app-platforms" aria-label="Platforms"><li>iPad</li><li>Android tablets</li><li>Phones</li></ul>
+        <a class="button app-link" href="https://devmil.de/notelama/">Visit NoteLama<span aria-hidden="true"> ↗</span></a>
+      </div>
+    </article>
+    </section>
+
+    <!-- Anatomy -->
+    <section class="build section" id="build" aria-labelledby="build-title">
+      <div class="build-grid">
+        <div class="build-copy reveal">
+          <p class="eyebrow">02 · Anatomy of a Lama</p>
+          <h2 id="build-title">No pencils were harmed.</h2>
+          <p>The Lama is constructed, not drawn. Every part is a circle, or the hull stretched around two circles: the same rounded forms as Meridian’s pills, islands and corners.</p>
+          <ol class="build-steps">
+            <li data-step="1"><b>20 circles.</b> A big skull, a small muzzle, a neck, a chest and a rump. Short legs, short ears. Cuteness is proportion.</li>
+            <li data-step="2"><b>10 hulls.</b> Pairs of circles become tapered pills. No eyes, no mouth, no fur, no outlines.</li>
+            <li data-step="3"><b>One pair of shades.</b> A wayfarer lens, a brow bar, a temple arm and two glints. The shades are the face.</li>
+          </ol>
+          <button type="button" class="button ghost" data-build-again>Build another one</button>
+        </div>
+        <div class="build-stage reveal" data-build-stage>
+          <div class="build-paper"><svg class="build-svg" viewBox="0 0 120 120" aria-hidden="true"><g transform="translate(60 60) scale(0.98) translate(-60.12 -50.42)"><g class="b-parts"><path class="b-part" d="M44.95 16.05L43.74 2.5A3.8 3.8 0 0 0 36.17 3.18L37.38 16.72A3.8 3.8 0 0 0 44.95 16.05Z" style="--i:0"/><path class="b-part" d="M54.12 19.86L62.48 9.37A3.8 3.8 0 0 0 56.54 4.63L48.18 15.12A3.8 3.8 0 0 0 54.12 19.86Z" style="--i:1"/><path class="b-part" d="M21.39 40.27L41.74 43.05A15 15 0 1 0 36.87 14.86L18.63 24.3A8.5 8.5 0 0 0 21.39 40.27Z" style="--i:2"/><path class="b-part" d="M31.11 35.32L29.03 63.1A12 12 0 0 0 52.97 64.9L55.05 37.11A12 12 0 0 0 31.11 35.32Z" style="--i:3"/><path class="b-part" d="M42 84L86 84A16 16 0 0 0 86 52L42 52A16 16 0 0 0 42 84Z" style="--i:4"/><path class="b-part" d="M101.84 61.71L105.84 52.71A4.2 4.2 0 0 0 98.16 49.29L94.16 58.29A4.2 4.2 0 0 0 101.84 61.71Z" style="--i:5"/><path class="b-part" d="M29.23 73.45L27.23 94.45A5.8 5.8 0 0 0 38.77 95.55L40.77 74.55A5.8 5.8 0 0 0 29.23 73.45Z" style="--i:6"/><path class="b-part" d="M43.21 76.29L44.21 96.29A5.8 5.8 0 0 0 55.79 95.71L54.79 75.71A5.8 5.8 0 0 0 43.21 76.29Z" style="--i:7"/><path class="b-part" d="M73.21 75.71L72.21 95.71A5.8 5.8 0 0 0 83.79 96.29L84.79 76.29A5.8 5.8 0 0 0 73.21 75.71Z" style="--i:8"/><path class="b-part" d="M86.26 74.82L89.26 95.82A5.8 5.8 0 0 0 100.74 94.18L97.74 73.18A5.8 5.8 0 0 0 86.26 74.82Z" style="--i:9"/></g><g class="b-shades"><g transform="rotate(12 41 46) translate(0 -8)"><path fill="#17171E" d="M19.5 29H36.5L34.3 35Q33.8 38.5 30.3 38.5H25.2Q21.7 38.5 21.3 35Z"/><rect x="19" y="27.8" width="18" height="3" rx="1.2" fill="#17171E"/><path d="M36.5 29.3L46 30.8" stroke="#17171E" stroke-width="2.4" stroke-linecap="round"/><path d="M24.5 36.5L28.5 31.5M29 36.5L31 34" stroke="#FFF8EB" stroke-width="1.8" stroke-linecap="round"/></g></g><g class="b-rings"><circle class="b-ring" pathLength="100" cx="43.76" cy="28.19" r="15" style="--i:0"/><circle class="b-dot" cx="43.76" cy="28.19" r=".9" style="--i:0"/><circle class="b-ring" pathLength="100" cx="22.54" cy="31.85" r="8.5" style="--i:1"/><circle class="b-dot" cx="22.54" cy="31.85" r=".9" style="--i:1"/><circle class="b-ring" pathLength="100" cx="43.08" cy="36.22" r="12" style="--i:2"/><circle class="b-dot" cx="43.08" cy="36.22" r=".9" style="--i:2"/><circle class="b-ring" pathLength="100" cx="41" cy="64" r="12" style="--i:3"/><circle class="b-dot" cx="41" cy="64" r=".9" style="--i:3"/><circle class="b-ring" pathLength="100" cx="42" cy="68" r="16" style="--i:4"/><circle class="b-dot" cx="42" cy="68" r=".9" style="--i:4"/><circle class="b-ring" pathLength="100" cx="86" cy="68" r="16" style="--i:5"/><circle class="b-dot" cx="86" cy="68" r=".9" style="--i:5"/><circle class="b-ring" pathLength="100" cx="98" cy="60" r="4.2" style="--i:6"/><circle class="b-dot" cx="98" cy="60" r=".9" style="--i:6"/><circle class="b-ring" pathLength="100" cx="102" cy="51" r="4.2" style="--i:7"/><circle class="b-dot" cx="102" cy="51" r=".9" style="--i:7"/><circle class="b-ring" pathLength="100" cx="41.16" cy="16.39" r="3.8" style="--i:8"/><circle class="b-dot" cx="41.16" cy="16.39" r=".9" style="--i:8"/><circle class="b-ring" pathLength="100" cx="39.95" cy="2.84" r="3.8" style="--i:9"/><circle class="b-dot" cx="39.95" cy="2.84" r=".9" style="--i:9"/><circle class="b-ring" pathLength="100" cx="51.15" cy="17.49" r="3.8" style="--i:10"/><circle class="b-dot" cx="51.15" cy="17.49" r=".9" style="--i:10"/><circle class="b-ring" pathLength="100" cx="59.51" cy="7" r="3.8" style="--i:11"/><circle class="b-dot" cx="59.51" cy="7" r=".9" style="--i:11"/><circle class="b-ring" pathLength="100" cx="35" cy="74" r="5.8" style="--i:12"/><circle class="b-dot" cx="35" cy="74" r=".9" style="--i:12"/><circle class="b-ring" pathLength="100" cx="33" cy="95" r="5.8" style="--i:13"/><circle class="b-dot" cx="33" cy="95" r=".9" style="--i:13"/><circle class="b-ring" pathLength="100" cx="49" cy="76" r="5.8" style="--i:14"/><circle class="b-dot" cx="49" cy="76" r=".9" style="--i:14"/><circle class="b-ring" pathLength="100" cx="50" cy="96" r="5.8" style="--i:15"/><circle class="b-dot" cx="50" cy="96" r=".9" style="--i:15"/><circle class="b-ring" pathLength="100" cx="79" cy="76" r="5.8" style="--i:16"/><circle class="b-dot" cx="79" cy="76" r=".9" style="--i:16"/><circle class="b-ring" pathLength="100" cx="78" cy="96" r="5.8" style="--i:17"/><circle class="b-dot" cx="78" cy="96" r=".9" style="--i:17"/><circle class="b-ring" pathLength="100" cx="92" cy="74" r="5.8" style="--i:18"/><circle class="b-dot" cx="92" cy="74" r=".9" style="--i:18"/><circle class="b-ring" pathLength="100" cx="95" cy="95" r="5.8" style="--i:19"/><circle class="b-dot" cx="95" cy="95" r=".9" style="--i:19"/></g></g></svg></div>
+          <div class="poses" aria-label="The constructed poses">
+            <figure><img src="assets/637ff2e9ffa9/lama/lama-proud.svg" width="96" height="96" alt=""><figcaption>Proud</figcaption></figure>
+            <figure><img src="assets/637ff2e9ffa9/lama/lama-standing-nod.svg" width="96" height="96" alt=""><figcaption>Hello</figcaption></figure>
+            <figure><img src="assets/637ff2e9ffa9/lama/lama-standing.svg" width="96" height="96" alt=""><figcaption>Standing</figcaption></figure>
+            <figure><img src="assets/637ff2e9ffa9/lama/lama-resting.svg" width="96" height="96" alt=""><figcaption>Resting</figcaption></figure>
+            <figure><img src="assets/637ff2e9ffa9/lama/lama-proud-shades-up.svg" width="96" height="96" alt=""><figcaption>Shades up</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meridian -->
+    <section class="meridian section" id="meridian" aria-labelledby="meridian-title">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 · The design system</p>
+        <h2 id="meridian-title">Meridian. <span>Same bones, different shades.</span></h2>
+        <p>The Lama gives the apps a family face. Meridian UI gives them a family language: one Flutter library of tokens, controls and layouts, tuned per app with a brand file for accent, density, shape and type. The Lama never replaces a Meridian control; it just signs the window.</p>
+      </div>
+
+      <div class="studio reveal">
+        <div class="studio-controls">
+          <div class="chips" role="group" aria-label="Brand"><button type="button" class="chip" data-brand="mimameidr" aria-pressed="true" style="--ground:#00402C;--accent:#0E7C59;--accent-dark:#24C27D;--prop:#FFF8EB"><img src="assets/637ff2e9ffa9/lama/tile-mimameidr.svg" width="20" height="20" alt="">ProcessLama</button><button type="button" class="chip" data-brand="crossproton" aria-pressed="false" style="--ground:#6D4AFF;--accent:#6D4AFF;--accent-dark:#9B83FF;--prop:#FFF8EB"><img src="assets/637ff2e9ffa9/lama/tile-crossproton.svg" width="20" height="20" alt="">MailLama</button><button type="button" class="chip" data-brand="northspline" aria-pressed="false" style="--ground:#14242B;--accent:#056CB3;--accent-dark:#5BB1FE;--prop:#FFF8EB"><img src="assets/637ff2e9ffa9/lama/tile-northspline.svg" width="20" height="20" alt="">GitLama</button><button type="button" class="chip" data-brand="shotlama" aria-pressed="false" style="--ground:#4D253F;--accent:#B8338F;--accent-dark:#E977BB;--prop:#FFF8EB"><img src="assets/637ff2e9ffa9/lama/tile-shotlama.svg" width="20" height="20" alt="">ShotLama</button><button type="button" class="chip" data-brand="nibluma" aria-pressed="false" style="--ground:#18304F;--accent:#0B6477;--accent-dark:#5CC0CF;--prop:#CFEFF3"><img src="assets/637ff2e9ffa9/lama/tile-nibluma.svg" width="20" height="20" alt="">NoteLama</button></div>
+          <div class="segmented" role="group" aria-label="Appearance">
+            <button type="button" data-mode="light" aria-pressed="true">Light</button>
+            <button type="button" data-mode="dark" aria-pressed="false">Dark</button>
+          </div>
+        </div>
+        <div class="studio-body">
+          <div class="mock" data-mock aria-label="A token demo window coloured with the selected brand" role="img">
+            <div class="m-bar"><span class="m-dots"><i></i><i></i><i></i></span><span class="m-title" data-m-title></span><span class="m-search">Search</span></div>
+            <div class="m-body">
+              <div class="m-side">
+                <span class="m-heading">Library</span>
+                <span class="m-nav is-active"><i></i>Everything</span>
+                <span class="m-nav"><i></i>Pinned</span>
+                <span class="m-nav"><i></i>Recent</span>
+                <span class="m-heading">Herd</span>
+                <span class="m-nav"><i></i>Grazing</span>
+                <span class="m-nav"><i></i>Napping</span>
+                <span class="m-sig" data-m-sig><svg class="m-signature-art" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.7 89.8"><g transform="translate(-11.5 -8.2)"><mask id="sig"><rect x="-20" y="-20" width="160" height="160" fill="#fff"/><path fill="#000" d="M19.5 29H36.5L34.3 35Q33.8 38.5 30.3 38.5H25.2Q21.7 38.5 21.3 35Z"/><rect x="19" y="27.8" width="18" height="3" rx="1.2" fill="#000"/></mask><path fill="currentColor" mask="url(#sig)" d="M38.63 23.88L34.63 10.88A3.8 3.8 0 0 0 27.37 13.12L31.37 26.12A3.8 3.8 0 0 0 38.63 23.88ZM48.4 25.7L54.4 13.7A3.8 3.8 0 0 0 47.6 10.3L41.6 22.3A3.8 3.8 0 0 0 48.4 25.7ZM20.63 52.48L41.11 50.96A15 15 0 1 0 30.49 24.4L14.61 37.43A8.5 8.5 0 0 0 20.63 52.48ZM29 44L29 70A12 12 0 0 0 53 70L53 44A12 12 0 0 0 29 44ZM40 98L87 98A18 18 0 0 0 87 62L40 62A18 18 0 0 0 40 98ZM103.84 71.71L107.84 62.71A4.2 4.2 0 0 0 100.16 59.29L96.16 68.29A4.2 4.2 0 0 0 103.84 71.71ZM22 98L50 98A5 5 0 0 0 50 88L22 88A5 5 0 0 0 22 98ZM52.5 53V62.5H62A9 9 0 0 1 53 53Z"/></g></svg>
+</span>
+              </div>
+              <div class="m-island">
+                <div class="m-island-head"><div><small>Pasture</small><strong>Good morning, herd.</strong></div><span class="m-button">New Lama</span></div>
+                <div class="m-rows" data-m-rows></div>
+                <div class="m-controls"><span class="m-switch"><i></i></span><span class="m-label">Shades on</span><span class="m-seg"><b>Day</b><span>Night</span></span></div>
+              </div>
+            </div>
+          </div>
+          <dl class="studio-facts">
+            <div><dt>Meridian brand</dt><dd data-f="meridian"></dd></div>
+            <div><dt>Accent</dt><dd><i class="swatch" data-f="accent-swatch"></i><span data-f="accent"></span></dd></div>
+            <div><dt>Density</dt><dd data-f="density"></dd></div>
+            <div><dt>Corners</dt><dd data-f="radius"></dd></div>
+            <div><dt>Typeface</dt><dd data-f="face"></dd></div>
+          </dl>
+          <p class="studio-note">A token demo with made-up content, not a screenshot. Colours, row height and corners come from Meridian 1.4.0. Find the tiny Lama at the foot of the sidebar: every app window carries that 16&nbsp;px signature, and it opens About.</p>
+        </div>
+      </div>
+
+      <div class="principles">
+        <article class="reveal"><span class="p-art p-islands" aria-hidden="true"><i></i><i></i></span><h3>Islands on a ground</h3><p>Work sits on distinct surfaces over a tinted canvas. Structure comes from placement and weight, not from lines.</p></article>
+        <article class="reveal"><span class="p-art p-accent" aria-hidden="true"><i></i></span><h3>One accent, spent on intent</h3><p>The app’s colour marks the main action, the active choice and keyboard focus. Nothing else gets it.</p></article>
+        <article class="reveal"><span class="p-art p-density" aria-hidden="true"><i></i><i></i><i></i></span><h3>Density per brand</h3><p>Compact for a process table, touch for a notebook. The same controls, at the row height each app needs.</p></article>
+        <article class="reveal"><span class="p-art p-contrast" aria-hidden="true">Aa</span><h3>Contrast is checked</h3><p>The token generator fails when text, an icon, a control edge or the focus ring drops below its floor, in any brand and theme.</p></article>
+        <article class="reveal"><span class="p-art p-motion" aria-hidden="true"><i></i></span><h3>Motion explains</h3><p>Durations, curves and springs are tokens, and every animation has a reduced-motion path.</p></article>
+        <article class="reveal"><span class="p-art p-lama" aria-hidden="true"><img src="assets/637ff2e9ffa9/lama/lama-signature.svg" width="34" height="32" alt=""></span><h3>The Lama signs, never speaks</h3><p>A 16 px signature on the chrome, a pose on welcome and empty screens, and nothing on your work, errors or permission prompts.</p></article>
+      </div>
+
+      <ul class="facts reveal">
+        <li><b>237</b><span>Lucide 1.37.0 icons</span></li>
+        <li><b>5</b><span>brands, one per app</span></li>
+        <li><b>4</b><span>densities, compact to touch</span></li>
+        <li><b>2</b><span>appearances, light and dark</span></li>
+        <li><b>10</b><span>spacing steps</span></li>
+        <li><b>48 px</b><span>minimum touch row</span></li>
+      </ul>
+
+      <div class="meridian-cta reveal">
+        <a class="button primary" href="https://devmil.de/meridian_ui/">Visit Meridian UI <span aria-hidden="true">↗</span></a>
+        <a class="button ghost" href="https://devmil.de/meridian_ui/widgetbook/">Try the widgets in Widgetbook <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-pasture" aria-hidden="true">
+      <img class="footer-lama" src="assets/637ff2e9ffa9/lama/lama-resting.svg" width="160" height="160" alt="">
+      <span class="zz"><i>z</i><i>z</i><i>z</i></span>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand"><img src="assets/637ff2e9ffa9/lama/lama-signature.svg" width="21" height="20" alt=""> Lama apps <span>by Devmil Solutions</span></p>
+        <p>The Lama comes from the Lamers family and its sunglasses-wearing family Lama. One “l”, on purpose.</p>
+        <button type="button" class="button ghost stampede-button" data-stampede>Release the herd</button>
+        <p class="footer-hint">Or type <kbd>l</kbd><kbd>a</kbd><kbd>m</kbd><kbd>a</kbd> anywhere.</p>
+      </div>
+      <div>
+        <h2>The apps</h2>
+        <ul class="footer-apps"><li><a href="https://devmil.de/processlama/">ProcessLama</a> <span>Process explorer</span></li><li><a href="https://devmil.de/maillama/">MailLama</a> <span>Desktop client for Proton Mail</span></li><li><a href="https://devmil.de/gitlama/">GitLama</a> <span>Git client</span></li><li><a href="https://devmil.de/shotlama/">ShotLama</a> <span>Screenshot and screen recording studio</span></li><li><a href="https://devmil.de/notelama/">NoteLama</a> <span>Handwritten notebooks</span></li></ul>
+      </div>
+      <div>
+        <h2>More</h2>
+        <ul class="footer-links">
+          <li><a href="https://devmil.de/meridian_ui/">Meridian UI</a></li>
+          <li><a href="https://devmil.de/">devmil.de</a></li>
+          <li><a href="https://devmil.de/imprint/">Imprint</a></li>
+        </ul>
+        <p class="footer-privacy">This page sets no cookies, has no analytics and loads nothing from other sites.</p>
+      </div>
+    </div>
+    <p class="footer-fine">Artwork from the Devmil brand at 637ff2e, tokens from Meridian UI at bc8aa88. MailLama is an independent product, not affiliated with or endorsed by Proton AG.</p>
+  </footer>
+
+  <script type="application/json" id="site-data">{"brands":{"mimameidr":{"app":"ProcessLama","meridian":"Mimameidr","accentName":"signal","density":"compact","row":24,"radius":8,"radiusLg":10,"face":"Geist","light":{"ground":"#E8ECEE","ground-hover":"#DCE2E5","pane":"#FFFFFF","pane-alt":"#F6F8F9","ink":"#0F1B21","ink-muted":"#52616A","ink-faint":"#8795A0","line":"#D8DFE3","line-strong":"#C3CCD1","control-edge":"#85929A","success":"#16733A","warning":"#9A5B00","danger":"#B42318","accent":"#0E7C59","on-accent":"#FFFFFF","accent-soft":"#DAF2E6","accent-ink":"#026F4F","focus":"#0E7C59","brand":"#00402C"},"dark":{"ground":"#0B151A","ground-hover":"#13222A","pane":"#122027","pane-alt":"#0F1B21","ink":"#E4ECEF","ink-muted":"#93A5AE","ink-faint":"#5E717B","line":"#21323B","line-strong":"#2C414B","control-edge":"#667A84","success":"#4AC26B","warning":"#E3A948","danger":"#FF6B61","accent":"#24C27D","on-accent":"#03130C","accent-soft":"#0B3627","accent-ink":"#80D6B0","focus":"#80D6B0","brand":"#1A533E"}},"crossproton":{"app":"MailLama","meridian":"CrossProton","accentName":"violet","density":"regular","row":28,"radius":10,"radiusLg":14,"face":"Inter","light":{"ground":"#E8ECEE","ground-hover":"#DCE2E5","pane":"#FFFFFF","pane-alt":"#F6F8F9","ink":"#0F1B21","ink-muted":"#52616A","ink-faint":"#8795A0","line":"#D8DFE3","line-strong":"#C3CCD1","control-edge":"#85929A","success":"#16733A","warning":"#9A5B00","danger":"#B42318","accent":"#6D4AFF","on-accent":"#FFFFFF","accent-soft":"#EEEAFF","accent-ink":"#5636DC","focus":"#6D4AFF","brand":"#6D4AFF"},"dark":{"ground":"#0B151A","ground-hover":"#13222A","pane":"#122027","pane-alt":"#0F1B21","ink":"#E4ECEF","ink-muted":"#93A5AE","ink-faint":"#5E717B","line":"#21323B","line-strong":"#2C414B","control-edge":"#667A84","success":"#4AC26B","warning":"#E3A948","danger":"#FF6B61","accent":"#9B83FF","on-accent":"#120B2B","accent-soft":"#312657","accent-ink":"#B7A6FF","focus":"#B7A6FF","brand":"#6D4AFF"}},"northspline":{"app":"GitLama","meridian":"Northspline","accentName":"cerulean","density":"regular","row":28,"radius":7,"radiusLg":10,"face":"Platform face","light":{"ground":"#E8ECEE","ground-hover":"#DCE2E5","pane":"#FFFFFF","pane-alt":"#F6F8F9","ink":"#0F1B21","ink-muted":"#52616A","ink-faint":"#8795A0","line":"#D8DFE3","line-strong":"#C3CCD1","control-edge":"#85929A","success":"#16733A","warning":"#9A5B00","danger":"#B42318","accent":"#056CB3","on-accent":"#FFFFFF","accent-soft":"#DBEBFC","accent-ink":"#0160A0","focus":"#056CB3","brand":"#14242B"},"dark":{"ground":"#0B151A","ground-hover":"#13222A","pane":"#122027","pane-alt":"#0F1B21","ink":"#E4ECEF","ink-muted":"#93A5AE","ink-faint":"#5E717B","line":"#21323B","line-strong":"#2C414B","control-edge":"#667A84","success":"#4AC26B","warning":"#E3A948","danger":"#FF6B61","accent":"#5BB1FE","on-accent":"#06111D","accent-soft":"#16334D","accent-ink":"#87C4FE","focus":"#87C4FE","brand":"#1F3A48"}},"shotlama":{"app":"ShotLama","meridian":"ShotLama","accentName":"magenta","density":"regular","row":28,"radius":9,"radiusLg":12,"face":"Platform face","light":{"ground":"#ECECF1","ground-hover":"#E1E1E8","pane":"#FFFFFF","pane-alt":"#F7F7FA","ink":"#14141B","ink-muted":"#575769","ink-faint":"#8F8FA0","line":"#DFDFE7","line-strong":"#C9C9D4","control-edge":"#84849A","success":"#16733A","warning":"#9A5B00","danger":"#B42318","accent":"#B8338F","on-accent":"#FFFFFF","accent-soft":"#FBE4F0","accent-ink":"#A72A82","focus":"#B8338F","brand":"#4D253F"},"dark":{"ground":"#0F0F14","ground-hover":"#1A1A22","pane":"#17171E","pane-alt":"#131319","ink":"#EDEDF3","ink-muted":"#A3A3B4","ink-faint":"#666679","line":"#262630","line-strong":"#34343F","control-edge":"#71718A","success":"#4AC26B","warning":"#E3A948","danger":"#FF6B61","accent":"#E977BB","on-accent":"#180A13","accent-soft":"#412235","accent-ink":"#EFA7D2","focus":"#EFA7D2","brand":"#623852"}},"nibluma":{"app":"NoteLama","meridian":"Nibluma","accentName":"petrol","density":"touch","row":48,"radius":12,"radiusLg":18,"face":"Platform face","light":{"ground":"#ECEAE6","ground-hover":"#E2DFD9","pane":"#FDFCFA","pane-alt":"#F6F4F0","ink":"#18212D","ink-muted":"#555D67","ink-faint":"#8C8A86","line":"#E1DDD6","line-strong":"#CEC9C1","control-edge":"#86827B","success":"#16733A","warning":"#9A5B00","danger":"#B42318","accent":"#0B6477","on-accent":"#FFFFFF","accent-soft":"#DDEEF0","accent-ink":"#0A5A6B","focus":"#0B6477","brand":"#18304F"},"dark":{"ground":"#151412","ground-hover":"#211F1C","pane":"#1D1C1A","pane-alt":"#191816","ink":"#ECE8E1","ink-muted":"#A9A398","ink-faint":"#6F6A63","line":"#2D2A27","line-strong":"#3A3632","control-edge":"#7E786F","success":"#4AC26B","warning":"#E3A948","danger":"#FF6B61","accent":"#5CC0CF","on-accent":"#03191E","accent-soft":"#17363B","accent-ink":"#80D2DE","focus":"#80D2DE","brand":"#22406A"}}},"apps":{"mimameidr":{"slug":"processlama","colors":["#24C27D","#0E7C59","#FFF8EB"]},"crossproton":{"slug":"maillama","colors":["#9B83FF","#6D4AFF","#FFF8EB"]},"northspline":{"slug":"gitlama","colors":["#5BB1FE","#056CB3","#FFF8EB"]},"shotlama":{"slug":"shotlama","colors":["#E977BB","#B8338F","#FFF8EB"]},"nibluma":{"slug":"notelama","colors":["#5CC0CF","#0B6477","#CFEFF3"]}}}</script>
+  <script src="assets/637ff2e9ffa9/web/lama-antics.js" defer></script>
+  <script src="site.2a54ca15b58c.js" defer></script>
+</body>
+</html>
